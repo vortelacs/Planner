@@ -486,3 +486,8 @@ $RECYCLE.BIN/
 *.swp
 .gitignore
 .gitignore
+API/planner.db-shm
+API/planner.db-wal
+.gitignore
+.gitignore
+.gitignore
