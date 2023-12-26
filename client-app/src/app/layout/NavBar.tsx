@@ -1,4 +1,4 @@
-import { Button, Container, Menu, MenuItem } from "semantic-ui-react";
+import { Button, Container, Menu } from "semantic-ui-react";
 
 interface Props {
   openForm: () => void;
@@ -16,10 +16,10 @@ export default function Navbar({ openForm }: Props) {
           ></img>
           Planner
         </Menu.Item>
-        <MenuItem name="Planner" />
-        <MenuItem>
+        <Menu.Item name="Planner" />
+        <Menu.Item>
           <Button onClick={openForm} positive content="Create Acitivity" />
-        </MenuItem>
+        </Menu.Item>
       </Container>
     </Menu>
   );
