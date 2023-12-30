@@ -484,10 +484,8 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-.gitignore
-.gitignore
 API/planner.db-shm
 API/planner.db-wal
 .gitignore
-.gitignore
-.gitignore
+.vscode/launch.json
+.vscode/tasks.json
